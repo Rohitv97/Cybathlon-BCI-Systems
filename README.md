@@ -8,6 +8,12 @@
 * Kaya EEG BCI dataset. This is an open source dataset and can be found online.
 * Cybathlon Competition Pilot Data (This was collected personally from the Pilot of the University of Essex team over several days. This data is not open source and cannot be shared.
 
+### Approaches used to build BCI Systems
+* Filter Bank Common Spatial Patterns (FBCSP)
+* EEGNet
+* Neural Structured Learning (NSL) utilising Adversarial Perturbation
+* Data Augmentation by generating synthetic EEG trials 
+
 ### Prototype Systems
 * This folder contains programs that were initially developed while working on the Dissertation Proposal report
 
@@ -19,3 +25,6 @@
 * This folder contains all the final developed scripts that were run to get results.
 * If using these, users can choose whether or not to use data augmentation, and the fine tune the process of creating artificial signals. 
 * These are the final scripts, and can be directly run on either a cluster or computing node. I have not attached the bash or shell scripts required to run these, as they shall vary from system to system.
+
+
+All programmes and codes from this project can be used, however, please do cite their usage.
